@@ -2,6 +2,7 @@ dc_extract.code-workspace
 extract/devtests/vectors/*
 extract/devtests/test-images/*
 extract/devtests/logs/*
+dc_output/*
 *.tif
 */*.tif
 */*/*.tif

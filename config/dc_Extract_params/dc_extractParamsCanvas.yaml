@@ -5,7 +5,7 @@
 
 dc_extrac_cog:
  _target_: dc_extract.extract_cog.extract_cog.extract_cog
- collections : 'cdsm:dem'
+ collections : 'HRDEM'
  bbox_crs: 'EPSG:4326' 
  bbox: ''
 # dc_extract_cog's list of params:
