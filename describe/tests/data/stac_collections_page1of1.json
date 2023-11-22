@@ -1,0 +1,1162 @@
+{
+    "collections": [
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0-beta.2",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "dynamic-surface-water-annual",
+            "title": "Dynamic Surface Water Maps of Canada from 1984-2019 Landsat Satellite Imagery / Cartes des eaux de surface dynamiques du Canada à partir d'imagerie satellite Landsat de 1984-2019",
+            "description": "This dataset contains new detailed surface water maps of Canada showing where and how often surface water has occurred at each location across Canada, and how it has changed from 1984-2019. Freely-available archived imagery from the Landsat series of satellites was used to map water at bi-weekly and annual time periods, and these time-series were used to create dynamic surface water maps at 30m spatial resolution across Canada. / Ce jeu de données contient de nouvelles cartes détaillées des eaux de surface du Canada montrant où et à quelle fréquence les eaux de surface ont été présentes à chaque endroit du Canada, et comment elles ont évolué de 1984 à 2019. Des images archivées et librement disponibles de la série de satellites Landsat ont été utilisées pour cartographier l'eau pour des périodes bihebdomadaires et annuelles. Ces séries temporelles ont été utilisées pour créer des cartes dynamiques des eaux de surface à une résolution spatiale de 30 m à travers le Canada.",
+            "keywords": [
+                "Water",
+                "wetlands",
+                "water management",
+                "floods",
+                "inundation frequency",
+                "remote sensing",
+                "Landsat",
+                "Eau",
+                "zones humides",
+                "gestion de l'eau",
+                "inondations",
+                "fréquence d'inondation",
+                "télédétection",
+                "Landsat"
+            ],
+            "license": "proprietary",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -177.29275972275844,
+                            34.301384132573058,
+                            -9.977229778239453,
+                            84.400481529465
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "period": "P1Y",
+                    "interval": [
+                        [
+                            "1984-07-01T12:00:00Z",
+                            "2019-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/dynamic-surface-water-annual/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/dynamic-surface-water-annual",
+                    "rel": "self",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "napl-victoria",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Victoria, British Columbia (1932-1950) / Série temporelle de la photothèque nationale de l'air (PNA) - Victoria, Colombie-Britannique (1932-1950)",
+            "description": "Temporal Series of the National Air Photo Library (NAPL) - Victoria, British Columbia (1932-1950) / Série temporelle de la photothèque nationale de l'air (PNA) - Victoria, Colombie-Britannique (1932-1950)",
+            "keywords": [
+                "Aerial photography",
+                "Remote sensing",
+                "Photographie aérienne",
+                "Télédétection"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -123.43974083753969,
+                            48.39264793188406,
+                            -123.27594010825956,
+                            48.479268046576077
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "1932-07-01T12:00:00Z",
+                            "1950-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-victoria/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-victoria",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Temporal Series of the National Air Photo Library (NAPL) - Victoria, British Columbia (1932-1950) / Série temporelle de la photothèque nationale de l'air (PNA) - Victoria, Colombie-Britannique (1932-1950)"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "napl-salish",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Salish region, British Columbia (1950-1982) / Série temporelle de la photothèque nationale de l'air (PNA) - Région des Salish, Colombie-Britannique (1950-1982)",
+            "description": "Temporal Series of the National Air Photo Library (NAPL) - Salish region, British Columbia (1950-1982) / Série temporelle de la photothèque nationale de l'air (PNA) - Région des Salish, Colombie-Britannique (1950-1982)",
+            "keywords": [
+                "Aerial photography",
+                "Remote sensing",
+                "Photographie aérienne",
+                "Télédétection"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -123.55737063952459,
+                            49.00821237238667,
+                            -122.28672481657489,
+                            49.43976369892647
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "1950-01-01T00:00:00Z",
+                            "1982-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-salish/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-salish",
+                    "rel": "self",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "msi",
+            "description": "The Annual Minimum Snow and Ice (MSI) Extent of the Atlas of Canada National Scale Data, are data sets compiled containing annual data from 2000 to present.  The data sets were derived from research published by the Canada Centre for Remote Sensing which classified satellite imagery over Canada and neighbouring regions for the continued presence or absence of snow and ice from April 1 to September 20 each year.  The Atlas of Canada MSI products consist of a vector dataset and a raster time-series animation application.",
+            "keywords": [],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -177.29405342839815,
+                            34.301560434035668,
+                            -9.976157515164413,
+                            83.6092825036679
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "period": "P1Y",
+                    "interval": [
+                        [
+                            "2000-08-15T00:00:00Z",
+                            "2021-08-15T00:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/msi/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/msi",
+                    "rel": "self",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "hrdem-lidar",
+            "title": "Mosaic of High Resolution Digital Elevation Model (HRDEM) by LiDAR acquisition project / Mosaïque de Modèle numérique d'élévation de haute résolution (MNEHR) par project d'acquisition LiDAR",
+            "description": "High-Resolution Digital Elevation Model (HRDEM) generated from LiDAR. This data collection includes a Digital Terrain Model (DTM) and a Digital Surface Model (DSM). The HRDEM product is referenced to the Canadian Geodetic Vertical Datum of 2013 (CGVD2013). Source data for HRDEM datasets is acquired through multiple projects with different partners. Since data is being acquired by project, there is no integration or edgematching done between projects. / Modèle numérique d'élévation haute résolution (MNEHR) généré à partir de données LiDAR. Cette collection de données inclut un Modèle numérique de terrain (MNT) et un Modèle numérique de surface (MNS). Le produit MNEHR est référencé au Système canadien de référence altimétrique de 2013 (CGVD2013). Les données source du produit MNEHR sont acquises par des projets multiples de différents partenaires. Comme les données sont acquises par projet, il n’y a pas d’intégration et d’ajustement vertical entre les projets.",
+            "keywords": [
+                "digital elevation model",
+                " lidar",
+                " mosaic",
+                " cloud-optimized data",
+                "modèle numérique d'élévation",
+                " lidar",
+                " mosaïque",
+                " données optimisées pour le nuage"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -134.28735207828044,
+                            41.2427923847184,
+                            -52.03655943166498,
+                            69.57135820979204
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2005-01-01T12:00:00Z",
+                            "2021-10-20T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/hrdem-lidar/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/hrdem-lidar",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Mosaic of High Resolution Digital Elevation Model (HRDEM) by LiDAR acquisition project / Mosaïque de Modèle numérique d'élévation de haute résolution (MNEHR) par project d'acquisition LiDAR"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "napl-markham",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Markham, Ontario (1960-1974) / Série temporelle de la photothèque nationale de l'air (PNA) - Markham, Ontario (1960-1974)",
+            "description": "Temporal Series of the National Air Photo Library (NAPL) - Markham, Ontario (1960-1974) / Série temporelle de la photothèque nationale de l'air (PNA) - Markham, Ontario (1960-1974)",
+            "keywords": [
+                "Aerial photography",
+                "Remote sensing",
+                "Photographie aérienne",
+                "Télédétection"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -79.42688988450212,
+                            43.781219375978569,
+                            -79.13941105715635,
+                            43.95686772056665
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "1960-07-01T12:00:00Z",
+                            "1974-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-markham/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-markham",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Temporal Series of the National Air Photo Library (NAPL) - Markham, Ontario (1960-1974) / Série temporelle de la photothèque nationale de l'air (PNA) - Markham, Ontario (1960-1974)"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0-beta.2",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "dynamic-surface-water-compilation",
+            "title": "Dynamic Surface Water Maps of Canada from 1984-2019 Landsat Satellite Imagery / Cartes des eaux de surface dynamiques du Canada à partir d'imagerie satellite Landsat de 1984-2019",
+            "description": "This dataset contains new detailed surface water maps of Canada showing where and how often surface water has occurred at each location across Canada, and how it has changed from 1984-2019. Freely-available archived imagery from the Landsat series of satellites was used to map water at bi-weekly and annual time periods, and these time-series were used to create dynamic surface water maps at 30m spatial resolution across Canada. / Ce jeu de données contient de nouvelles cartes détaillées des eaux de surface du Canada montrant où et à quelle fréquence les eaux de surface ont été présentes à chaque endroit du Canada, et comment elles ont évolué de 1984 à 2019. Des images archivées et librement disponibles de la série de satellites Landsat ont été utilisées pour cartographier l'eau pour des périodes bihebdomadaires et annuelles. Ces séries temporelles ont été utilisées pour créer des cartes dynamiques des eaux de surface à une résolution spatiale de 30 m à travers le Canada.",
+            "keywords": [
+                "Water",
+                "wetlands",
+                "water management",
+                "floods",
+                "inundation frequency",
+                "remote sensing",
+                "Landsat",
+                "Eau",
+                "zones humides",
+                "gestion de l'eau",
+                "inondations",
+                "fréquence d'inondation",
+                "télédétection",
+                "Landsat"
+            ],
+            "license": "proprietary",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -177.29275972275844,
+                            34.301384132573058,
+                            -9.977229778239453,
+                            84.400481529465
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "period": "P1Y",
+                    "interval": [
+                        [
+                            "1984-07-01T12:00:00Z",
+                            "2019-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/dynamic-surface-water-compilation/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/dynamic-surface-water-compilation",
+                    "rel": "self",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "napl-tuktoyaktuk",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Tuktoyaktuk / Série temporelle de la photothèque nationale de l'air (PNA) - Tuktoyaktuk",
+            "description": "Temporal Series of the National Air Photo Library (NAPL) - Tuktoyaktuk / Série temporelle de la photothèque nationale de l'air (PNA) - Tuktoyaktuk",
+            "keywords": [
+                "Aerial photography",
+                "Remote sensing",
+                "Photographie aérienne",
+                "Télédétection"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -133.4477409037643,
+                            69.22328002726933,
+                            -132.51603924753085,
+                            69.67864326463759
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "1947-07-15T12:00:00Z",
+                            "2004-08-11T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-tuktoyaktuk/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-tuktoyaktuk",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Temporal Series of the National Air Photo Library (NAPL) - Tuktoyaktuk / Série temporelle de la photothèque nationale de l'air (PNA) - Tuktoyaktuk"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "monthly-vegetation-parameters-20m-V1",
+            "title": "Monthly Vegetation Parameters of Canada from Medium Resolution Satellite Imagery Version 1 / Indice mensuelle des paramètres de la végétation au Canada à partir d'images satellites à moyenne résolution version 1",
+            "description": "These products represent the monthly maps of the fraction of vegetation cover indicator (fcover), the leaf area index (LAI) and the fraction of radiation absorbed in terms of energy synthesis (fAPAR) index absorbed by green foliage, during one growing season (May-June-July-August-September) at 20 m resolution covering some regional areas of the Canadian landmass. / These products represent the monthly maps of the fraction of vegetation cover indicator (fcover), the leaf area index (LAI) and the fraction of radiation absorbed in terms of energy synthesis (fAPAR) index absorbed by green foliage, during one growing season (May-June-July-August-September) at 20 m resolution covering some regional areas of the Canadian landmass.",
+            "keywords": [
+                "Leaf Area Index",
+                "Fraction of Vegetation Cover",
+                "Fraction of absorbed photosynthetically active radiation absorbed",
+                "Crops",
+                "Trees",
+                "Land cover",
+                "Indice de la surface foliaire",
+                "Fraction de couverture végétale",
+                "Fraction du rayonnement absorbé sur le plan de la synthèse d'énergie absorbée",
+                "Cultures",
+                "Arbre",
+                "Couverture du sol"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -177.6240652880141,
+                            27.573481959905626,
+                            -7.389534624709524,
+                            84.53908585236245
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2019-05-15T12:00:00Z",
+                            "2021-10-15T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/monthly-vegetation-parameters-20m-V1/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/monthly-vegetation-parameters-20m-V1",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Monthly Vegetation Parameters of Canada from Medium Resolution Satellite Imagery Version 1 / Indice mensuelle des paramètres de la végétation au Canada à partir d'images satellites à moyenne résolution version 1"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "napl-regina",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Regina, Saskatchewan (1947-1967) / Série temporelle de la photothèque nationale de l'air (PNA) - Regina, Saskatchewan (1947-1967)",
+            "description": "Temporal Series of the National Air Photo Library (NAPL) - Regina, Saskatchewan (1947-1967) / Série temporelle de la photothèque nationale de l'air (PNA) - Regina, Saskatchewan (1947-1967)",
+            "keywords": [
+                "Aerial photography",
+                "Remote sensing",
+                "Photographie aérienne",
+                "Télédétection"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -104.75571511212645,
+                            50.42392886227726,
+                            -104.56356008330327,
+                            50.49598270944686
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "1947-07-01T12:00:00Z",
+                            "1967-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-regina/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-regina",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Temporal Series of the National Air Photo Library (NAPL) - Regina, Saskatchewan (1947-1967) / Série temporelle de la photothèque nationale de l'air (PNA) - Regina, Saskatchewan (1947-1967)"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "napl-ring-of-fire",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Ring of Fire / Série temporelle de la photothèque nationale de l'air (PNA) - Cercle de feu",
+            "description": "Temporal Series of the National Air Photo Library (NAPL) - Ring of Fire / Série temporelle de la photothèque nationale de l'air (PNA) - Cercle de feu",
+            "keywords": [
+                "Aerial photography",
+                "Remote sensing",
+                "Photographie aérienne",
+                "Télédétection"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -88.05245143404955,
+                            51.62285357468582,
+                            -84.57727128084842,
+                            53.833354975551078
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "1954-08-07T12:00:00Z",
+                            "1976-07-16T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-ring-of-fire/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-ring-of-fire",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Temporal Series of the National Air Photo Library (NAPL) - Ring of Fire / Série temporelle de la photothèque nationale de l'air (PNA) - Cercle de feu"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "cdem",
+            "title": "Canadian Digital Elevation Model / Modèle numérique d'élévation du Canada",
+            "description": "This collection is a legacy product that is no longer supported. It may not meet current government standards. The Canadian Digital Elevation Model (CDEM) is part of Natural Resources Canada's altimetry system designed to better meet the users' needs for elevation data and products. / Ce produit fait maintenant partie du patrimoine, il n'est plus maintenu. Il pourrait ne pas respecter les normes actuelles du gouvernement. Le Modèle numérique d'élévation du Canada (MNÉC) fait partie du système d'altimétrie conçu par Ressources naturelles Canada afin de mieux répondre aux besoins des utilisateurs de données et de produits d'élévation.",
+            "keywords": [
+                "",
+                ""
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -175.21985583955556,
+                            35.40485181077552,
+                            -10.936055701966583,
+                            84.13480833436502
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "1945-01-01T12:00:00Z",
+                            "2011-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/cdem/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/cdem",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Canadian Digital Elevation Model / Modèle numérique d'élévation du Canada"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "flood-susceptibility",
+            "title": "Flood Susceptibility Index (FS) / Indice de la vulnérabilitè aux inondations  (IVI)",
+            "description": "A national map of flood susceptibility or flood prone areas based on patterns of historic flood events as predicted by an ensemble machine learning model. The recommended use is national, provincial or regional scale and can be used as a guide for identifying areas for further investigation. This dataset, while processed and available at 30m cell size, is not recommended for use at the pixel or street level, given the uncertainty in the modelling process and the variability of results as discussed in https://ssrn.com/abstract=4133587 (under review). For additional details on the methods, tests, models and datasets used to generate this data layer, please see https://doi.org/10.3390/rs14071656. / Une carte nationale de vulnérabilité aux inondations ou de zones sujettes aux inondations, basée sur des modèles d'inondations historiques prédits par un modèle d'apprentissage automatique d'ensemble. L'utilisation recommandée est à l'échelle nationale, provinciale ou régionale, et peut être utilisée comme guide pour identifier les zones à investiguer. Cet ensemble de données, bien que traité et disponible à une taille de cellule de 30m, n'est pas recommandé pour une utilisation au niveau du pixel ou de la rue, étant donné l'incertitude du processus de modélisation et la variabilité des résultats, comme discuté dans https://ssrn.com/abstract=4133587 (en cours de révision). Pour plus de détails sur les méthodes, les tests, les modèles et les ensembles de données utilisés pour générer cette couche de données, veuillez consulter https://doi.org/10.3390/rs14071656.",
+            "keywords": [
+                "Flood prone",
+                "flood susceptibility",
+                "hazard identification",
+                "flood priority",
+                "Zone inondable",
+                "susceptibilité aux inondations",
+                "identification des risques",
+                "priorité aux inondations"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -173.56814793944452,
+                            35.76773254370621,
+                            -11.918074747936462,
+                            83.74370031445446
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "period": "P5Y",
+                    "interval": [
+                        [
+                            "2015-07-01T12:00:00Z",
+                            "2015-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/flood-susceptibility/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/flood-susceptibility",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Flood Susceptibility Index (FS) / Indice de la vulnérabilitè aux inondations  (IVI)"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "asset": {},
+            "type": "Collection",
+            "stac_version": "1.0.0-rc.2",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "landcover",
+            "description": "Land Cover of Canada / Couverture terrestre du Canada",
+            "keywords": [],
+            "license": "proprietary",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -177.29275972275844,
+                            34.301384132573058,
+                            -9.977229778239453,
+                            84.400481529465
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "period": "P5Y",
+                    "interval": [
+                        [
+                            "2010-07-01T12:00:00Z",
+                            "2020-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/landcover/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/landcover",
+                    "rel": "self",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "napl-halifax",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Halifax, Nova Scotia (1947-1977) / Série temporelle de la photothèque nationale de l'air (PNA) - Halifax, Nouvelle-Écosse (1947-1977)",
+            "description": "Temporal Series of the National Air Photo Library (NAPL) - Halifax, Nova Scotia (1947-1977) / Série temporelle de la photothèque nationale de l'air (PNA) - Halifax, Nouvelle-Écosse (1947-1977)",
+            "keywords": [
+                "Aerial photography",
+                "Remote sensing",
+                "Photographie aérienne",
+                "Télédétection"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -63.74210936321433,
+                            44.555682872249217,
+                            -63.386656385500568,
+                            44.73056148015018
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "1947-07-01T12:00:00Z",
+                            "1977-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-halifax/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/napl-halifax",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Temporal Series of the National Air Photo Library (NAPL) - Halifax, Nova Scotia (1947-1977) / Série temporelle de la photothèque nationale de l'air (PNA) - Halifax, Nouvelle-Écosse (1947-1977)"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "vegetation",
+            "title": "vegetation / végétation",
+            "description": "Peak Season Vegetation parameters from medium resolution satellite imagery / Paramètres de végétation en haute saison à partir d'images satellites à moyenne résolution",
+            "keywords": [
+                "LAI",
+                " fCOVER",
+                " ISF",
+                "LAI",
+                " fCOVER",
+                " ISF"
+            ],
+            "license": "OGL-Canada-2.0",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -177.29469689799218,
+                            31.71728045014709,
+                            -7.629624755713708,
+                            83.17083573716555
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "period": "P1Y",
+                    "interval": [
+                        [
+                            "2019-07-01T12:00:00Z",
+                            "2020-07-01T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/vegetation/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/vegetation",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "vegetation / végétation"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        },
+        {
+            "validation:attemptedExtensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "validation:errors": [],
+            "type": "Collection",
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+            ],
+            "id": "cdsm",
+            "title": "Canadian Digital Surface Model / Modèle numérique de surface du Canada",
+            "description": "This is a legacy product that is no longer supported. It may not meet current government standards. The Canadian Digital Surface Model (CDSM) is part of Natural Resources Canada's altimetry system designed to better meet the users' needs for elevation data and products. The CDSM product consists of a derived product from the original 1 arcsecond Shuttle Radar Topographic Mission (SRTM) Digital Surface Model (DSM). / Ce produit fait maintenant partie du patrimoine, il n'est plus maintenu. Il pourrait ne pas respecter les normes actuelles du gouvernement. Le Modèle numérique de surface du Canada (MNSC) fait partie du système d'altimétrie conçu par Ressources naturelles Canada afin de mieux répondre aux besoins des utilisateurs de données et de produits d'élévation. Le MNSC est un produit dérivé du modèle numérique de surface (MNS) original à 1 seconde d'arc du Shuttle Radar Topographic Mission (SRTM).",
+            "keywords": [
+                "",
+                ""
+            ],
+            "license": "proprietary",
+            "providers": [],
+            "extent": {
+                "spatial": {
+                    "bbox": [
+                        [
+                            -142.40112806971005,
+                            35.190150355636898,
+                            -39.72734568326337,
+                            67.49198839962952
+                        ]
+                    ]
+                },
+                "temporal": {
+                    "interval": [
+                        [
+                            "2000-02-22T12:00:00Z",
+                            "2000-02-22T12:00:00Z"
+                        ]
+                    ]
+                }
+            },
+            "summaries": {},
+            "properties": {},
+            "links": [
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/cdsm/items",
+                    "rel": "items",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api/collections/cdsm",
+                    "rel": "self",
+                    "type": "application/json",
+                    "title": "Canadian Digital Surface Model / Modèle numérique de surface du Canada"
+                },
+                {
+                    "href": "https://datacube.services.geo.ca/api",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/napl-ottawa",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Ottawa River (1950-2001) / Série temporelle de la photothèque nationale de l'air (PNA) - Rivière des Outaouais (1950-2001)"
+        },
+        {
+            "href": "/collections/dynamic-surface-water-annual",
+            "rel": "child",
+            "type": "application/json"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/napl-victoria",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Victoria, British Columbia (1932-1950) / Série temporelle de la photothèque nationale de l'air (PNA) - Victoria, Colombie-Britannique (1932-1950)"
+        },
+        {
+            "href": "/collections/napl-salish",
+            "rel": "child",
+            "type": "application/json"
+        },
+        {
+            "href": "/collections/msi",
+            "rel": "child",
+            "type": "application/json"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/hrdem-lidar",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Mosaic of High Resolution Digital Elevation Model (HRDEM) by LiDAR acquisition project / Mosaïque de Modèle numérique d'élévation de haute résolution (MNEHR) par project d'acquisition LiDAR"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/napl-markham",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Markham, Ontario (1960-1974) / Série temporelle de la photothèque nationale de l'air (PNA) - Markham, Ontario (1960-1974)"
+        },
+        {
+            "href": "/collections/dynamic-surface-water-compilation",
+            "rel": "child",
+            "type": "application/json"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/napl-tuktoyaktuk",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Tuktoyaktuk / Série temporelle de la photothèque nationale de l'air (PNA) - Tuktoyaktuk"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/monthly-vegetation-parameters-20m-V1",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Monthly Vegetation Parameters of Canada from Medium Resolution Satellite Imagery Version 1 / Indice mensuelle des paramètres de la végétation au Canada à partir d'images satellites à moyenne résolution version 1"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/napl-regina",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Regina, Saskatchewan (1947-1967) / Série temporelle de la photothèque nationale de l'air (PNA) - Regina, Saskatchewan (1947-1967)"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/napl-ring-of-fire",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Ring of Fire / Série temporelle de la photothèque nationale de l'air (PNA) - Cercle de feu"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/cdem",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Canadian Digital Elevation Model / Modèle numérique d'élévation du Canada"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/flood-susceptibility",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Flood Susceptibility Index (FS) / Indice de la vulnérabilitè aux inondations  (IVI)"
+        },
+        {
+            "href": "/collections/landcover",
+            "rel": "child",
+            "type": "application/json"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/napl-halifax",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Temporal Series of the National Air Photo Library (NAPL) - Halifax, Nova Scotia (1947-1977) / Série temporelle de la photothèque nationale de l'air (PNA) - Halifax, Nouvelle-Écosse (1947-1977)"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/vegetation",
+            "rel": "child",
+            "type": "application/json",
+            "title": "vegetation / végétation"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/cdsm",
+            "rel": "child",
+            "type": "application/json",
+            "title": "Canadian Digital Surface Model / Modèle numérique de surface du Canada"
+        }
+    ]
+}

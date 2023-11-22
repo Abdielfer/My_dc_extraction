@@ -1,0 +1,9 @@
+[submodule "utilities/by_window"]
+	path = utilities/by_window
+	url = https://git.geoproc.geogc.ca/datacube/utilities/by_window.git
+[submodule "utilities/stac_tools"]
+	path = utilities/stac_tools
+	url = https://git.geoproc.geogc.ca/datacube/utilities/stac_tools.git
+[submodule "utilities/nrcan_ssl"]
+	path = utilities/nrcan_ssl
+	url = https://git.geoproc.geogc.ca/datacube/utilities/nrcan_ssl.git

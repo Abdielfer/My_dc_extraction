@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "test_single_poly_json",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -73.208039159, 45.824763447 ], [ -73.208039159, 45.875634272 ], [ -73.266390987, 45.875634272 ], [ -73.266390987, 45.824763447 ], [ -73.208039159, 45.824763447 ] ] ] } }
+]
+}

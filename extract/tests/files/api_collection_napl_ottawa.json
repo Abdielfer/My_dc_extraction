@@ -1,0 +1,83 @@
+{
+   "collections":[
+      {
+         "validation:attemptedExtensions":[
+            "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+         ],
+         "validation:errors":[
+            
+         ],
+         "type":"Collection",
+         "stac_version":"1.0.0",
+         "stac_extensions":[
+            "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+         ],
+         "id":"napl-ottawa",
+         "title":"Temporal Series of the National Air Photo Library (NAPL) - Ottawa River (1950-2001) / S\u00e9rie temporelle de la phototh\u00e8que nationale de l'air (PNA) - Rivi\u00e8re des Outaouais (1950-2001)",
+         "description":"Temporal Series of the National Air Photo Library (NAPL) - Ottawa River (1950-2001) / S\u00e9rie temporelle de la phototh\u00e8que nationale de l'air (PNA) - Rivi\u00e8re des Outaouais (1950-2001)",
+         "keywords":[
+            "Aerial photography",
+            "Remote sensing",
+            "Photographie a\u00e9rienne",
+            "T\u00e9l\u00e9d\u00e9tection"
+         ],
+         "license":"OGL-Canada-2.0",
+         "providers":[
+            
+         ],
+         "extent":{
+            "spatial":{
+               "bbox":[
+                  [
+                     -76.40786772570806,
+                     45.19823008223312,
+                     -74.42505492258495,
+                     45.76838351189247
+                  ]
+               ]
+            },
+            "temporal":{
+               "interval":[
+                  [
+                     "1950-07-01T12:00:00Z",
+                     "2001-07-01T12:00:00Z"
+                  ]
+               ]
+            }
+         },
+         "summaries":{
+            
+         },
+         "properties":{
+            
+         },
+         "links":[
+            {
+               "href":"https://datacube.services.geo.ca/api/collections/napl-ottawa/items",
+               "rel":"items",
+               "type":"application/json"
+            },
+            {
+               "href":"https://datacube.services.geo.ca/api/collections/napl-ottawa",
+               "rel":"self",
+               "type":"application/json",
+               "title":"Temporal Series of the National Air Photo Library (NAPL) - Ottawa River (1950-2001) / S\u00e9rie temporelle de la phototh\u00e8que nationale de l'air (PNA) - Rivi\u00e8re des Outaouais (1950-2001)"
+            },
+            {
+               "href":"https://datacube.services.geo.ca/api",
+               "rel":"root",
+               "type":"application/json"
+            }    
+         ]
+      }
+   ],
+   "links":[
+      {
+         "href":"https://datacube.services.geo.ca/api/collections/napl-ottawa",
+         "rel":"child",
+         "type":"application/json",
+         "title":"Temporal Series of the National Air Photo Library (NAPL) - Ottawa River (1950-2001) / S\u00e9rie temporelle de la phototh\u00e8que nationale de l'air (PNA) - Rivi\u00e8re des Outaouais (1950-2001)"
+      }
+      
+   ]
+}

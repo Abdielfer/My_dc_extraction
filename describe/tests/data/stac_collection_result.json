@@ -1,0 +1,70 @@
+{
+    "validation:attemptedExtensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+    ],
+    "validation:errors": [],
+    "type": "Collection",
+    "stac_version": "1.0.0",
+    "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+    ],
+    "id": "monthly-vegetation-parameters-20m-V1",
+    "title": "Monthly Vegetation Parameters of Canada from Medium Resolution Satellite Imagery Version 1 / Indice mensuelle des paramètres de la végétation au Canada à partir d'images satellites à moyenne résolution version 1",
+    "description": "These products represent the monthly maps of the fraction of vegetation cover indicator (fcover), the leaf area index (LAI) and the fraction of radiation absorbed in terms of energy synthesis (fAPAR) index absorbed by green foliage, during one growing season (May-June-July-August-September) at 20 m resolution covering some regional areas of the Canadian landmass. / These products represent the monthly maps of the fraction of vegetation cover indicator (fcover), the leaf area index (LAI) and the fraction of radiation absorbed in terms of energy synthesis (fAPAR) index absorbed by green foliage, during one growing season (May-June-July-August-September) at 20 m resolution covering some regional areas of the Canadian landmass.",
+    "keywords": [
+        "Leaf Area Index",
+        "Fraction of Vegetation Cover",
+        "Fraction of absorbed photosynthetically active radiation absorbed",
+        "Crops",
+        "Trees",
+        "Land cover",
+        "Indice de la surface foliaire",
+        "Fraction de couverture végétale",
+        "Fraction du rayonnement absorbé sur le plan de la synthèse d'énergie absorbée",
+        "Cultures",
+        "Arbre",
+        "Couverture du sol"
+    ],
+    "license": "OGL-Canada-2.0",
+    "providers": [],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -177.6240652880141,
+                    27.573481959905626,
+                    -7.389534624709524,
+                    84.53908585236245
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2019-05-15T12:00:00Z",
+                    "2021-10-15T12:00:00Z"
+                ]
+            ]
+        }
+    },
+    "summaries": {},
+    "properties": {},
+    "links": [
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/monthly-vegetation-parameters-20m-V1/items",
+            "rel": "items",
+            "type": "application/json"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api/collections/monthly-vegetation-parameters-20m-V1",
+            "rel": "self",
+            "type": "application/json",
+            "title": "Monthly Vegetation Parameters of Canada from Medium Resolution Satellite Imagery Version 1 / Indice mensuelle des paramètres de la végétation au Canada à partir d'images satellites à moyenne résolution version 1"
+        },
+        {
+            "href": "https://datacube.services.geo.ca/api",
+            "rel": "root",
+            "type": "application/json"
+        }
+    ]
+}

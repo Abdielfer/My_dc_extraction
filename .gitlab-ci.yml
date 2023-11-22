@@ -1,0 +1,53 @@
+
+stages:
+  
+  - test
+  - deploy
+
+extract_and_describe-tests:
+
+  # image: ubuntu:22.04
+  image : python:3.10
+  stage: test
+  tags:
+    - CICD
+  before_script:
+    - pip install --no-cache-dir --upgrade -r requirements.txt
+  # variables:
+  #   GIT_SUBMODULE_STRATEGY: recursive
+  script:
+    - pytest extract/tests --tb=short
+    - pytest describe/tests --tb=short
+    # - pytest extract_cog/tests --tb=short
+
+extract_cog-tests:
+  # image: ubuntu:22.04
+  image : python:3.10
+  stage: test
+  tags:
+    - CICD
+  before_script:
+    - pip install --no-cache-dir --upgrade -r requirements.txt
+  script:
+    # - pytest extract/tests --tb=short
+    - pytest extract_cog/tests --tb=short
+  when: manual 
+  # rules:
+  #   - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+  #   - when: manual
+
+
+deploy_package:
+  image: python:3.10
+  stage: deploy
+  tags: 
+    - CICD
+  script:
+    - pip install build twine
+    - python -m build
+    - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+
+  when: manual
+
+
+

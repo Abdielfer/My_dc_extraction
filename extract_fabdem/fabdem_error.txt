@@ -1,0 +1,84 @@
+start 2022-02-10 16:10:42.970516
+Exception info: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+etype: <class 'rasterio.errors.RasterioIOError'>
+value: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+frame: <frame at 0x56496b8d2d80, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 528
+start 2022-02-10 16:10:42.970516
+Exception info: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+etype: <class 'rasterio.errors.RasterioIOError'>
+value: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+frame: <frame at 0x56496b8d2d80, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 528
+start 2022-02-10 16:10:46.094773
+Exception info: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+etype: <class 'rasterio.errors.RasterioIOError'>
+value: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+frame: <frame at 0x56496c4b4c60, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 528
+start 2022-02-10 16:10:42.970516
+Exception info: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+etype: <class 'rasterio.errors.RasterioIOError'>
+value: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+frame: <frame at 0x56496b8d2d80, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 528
+start 2022-02-10 16:10:46.094773
+Exception info: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+etype: <class 'rasterio.errors.RasterioIOError'>
+value: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+frame: <frame at 0x56496c4b4c60, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 528
+start 2022-02-10 16:10:49.112676
+Exception info: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+etype: <class 'rasterio.errors.RasterioIOError'>
+value: Attempt to create 0x0 dataset is illegal,sizes must be larger than zero.
+frame: <frame at 0x564970836670, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 528
+start 2022-02-10 16:50:39.815199
+Exception info: Positional argument arr must be an array-like object
+etype: <class 'rasterio.errors.InvalidArrayError'>
+value: Positional argument arr must be an array-like object
+frame: <frame at 0x56496ba91910, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 526
+start 2022-02-10 16:50:39.815199
+Exception info: Positional argument arr must be an array-like object
+etype: <class 'rasterio.errors.InvalidArrayError'>
+value: Positional argument arr must be an array-like object
+frame: <frame at 0x56496ba91910, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 526
+start 2022-02-10 16:50:45.659153
+Exception info: Positional argument arr must be an array-like object
+etype: <class 'rasterio.errors.InvalidArrayError'>
+value: Positional argument arr must be an array-like object
+frame: <frame at 0x56496fbbcae0, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 526
+start 2022-02-10 16:50:39.815199
+Exception info: Positional argument arr must be an array-like object
+etype: <class 'rasterio.errors.InvalidArrayError'>
+value: Positional argument arr must be an array-like object
+frame: <frame at 0x56496ba91910, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 526
+start 2022-02-10 16:50:45.659153
+Exception info: Positional argument arr must be an array-like object
+etype: <class 'rasterio.errors.InvalidArrayError'>
+value: Positional argument arr must be an array-like object
+frame: <frame at 0x56496fbbcae0, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 526
+start 2022-02-10 16:50:51.270845
+Exception info: Positional argument arr must be an array-like object
+etype: <class 'rasterio.errors.InvalidArrayError'>
+value: Positional argument arr must be an array-like object
+frame: <frame at 0x56496ba91910, file '/gpfs/fs3/nrcan/nrcan_geobase/work/transfer/work/datacube/DEV_UC/git_repo/usecase/extract/fabdem.py', line 181, code process_files>
+line number: 139
+last instruction: 526

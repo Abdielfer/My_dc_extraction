@@ -1,0 +1,18 @@
+name: datacube-extract-3-10
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=1.25.2
+  - rasterio=1.3.8
+  - requests=2.31.0
+  - fiona
+  - dask
+  - geopandas=0.12.2
+  - rioxarray
+  - shapely=2.0.1
+  - pydantic
+  - pip:
+    - nrcan_ssl@git+https://git.geoproc.geogc.ca/datacube/utilities/nrcan_ssl
+
+
