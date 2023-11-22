@@ -511,39 +511,12 @@ def crop_TifList_WithMaskList(cfg: DictConfig, maskList:os.path):
             if maskName in tifName:
                 outPath = os.path.join(wdir,maskName+'_clip.tif')
                 print('-----------------------Cropping --------------------')
-                crop_tif(i,j,outPath)
+                clipRasterByMask(i,j,outPath)
                 print(f'{outPath}')
                 print('-----------------------Cropped --------------------  \n')
     print("All done --->")        
     return True
 
-def fromDEMtoDataFrame(DEM:os.path,labels:os.path,target:str='percentage',mask:os.path=None, samplingRatio:float=0.1)->os.path:
-    '''
-    Sampling automatically a DEM of multiples bands and a polygon, to produce a DataSet. 
-    '''
-    ## Create features for dataset
-    bandsList = DEMFeaturingForMLP_WbT(DEM)
-    ## Extract the band name from the list full path of features. Add column names for coordinates
-    colList = extractNamesListFromFullPathList(bandsList,['x_coord','y_coord'])
-    ## Build a multiband raster to ensure spatial correlation between features.
-    rasterMultiband = addSubstringToName(DEM,'_features')
-    stackBandsInMultibandRaster(bandsList,rasterMultiband)
-    ## Crop the multiband raster if needed.
-    if mask:
-        cropped = addSubstringToName(rasterMultiband,'_AOI')
-        raster = clipRasterByMask(rasterMultiband,mask,cropped)
-        replace_no_data_value(raster)
-    else:
-        raster = rasterMultiband
-    ## Random sampling the raster with a density defined by the ratio. This is the more expensive opperation..by patient. 
-    samplesArr = randomSamplingMultiBandRaster(raster,ratio=samplingRatio)
-    ## Build a dataframe with the samples
-    df = pd.DataFrame(samplesArr,columns=colList)
-    scv_output = replaceExtention(rasterMultiband,'_DSet.csv')
-    df.to_csv(scv_output,index=None)
-    print(f'Buscando a Target in fromDEMtoDataFrame: {target}')
-    addTargetColsToDatasetCSV(scv_output,labels,target)
-    return scv_output
 
 #######################
 ### Rasterio Tools  ###
@@ -1545,28 +1518,3 @@ def downloadTailsToLocalDir(tail_URL_NamesList, localPath):
 ##################################################################
 ########  DATA Analis tools for Geospatial Information   ########
 ##################################################################
-
-    '''
-    This function add to a dataset the Target columns. The dataset is provided as *.csv file and save to the same path a new file with perfix = "_withClasses.csv"
-    @df_csv: os.path: Path to the *csv file.
-    @shpFile: os.path: Path to the shapefile to sample from.
-    @target:str = target coll name in the dataset.
-    @return: os.path: path to the new *.csv containing the dataset. 
-    '''
-    # Read the csv as pd.DataFrame
-    df = pd.read_csv(df_csv)
-    ## Extract x,y pairs array.
-    xy = df.iloc[:,:2].values
-    # Sample unique values by coordinates
-    with timeit():
-        array, nameList = sampleVectorFieldByUniqueVal_shpfile(shpFile,target,xy)
-        print("Sampling labels END")
-            
-    # Add colls to the dataframe and save it.
-    for name in nameList:
-        if name not in excludeClass: 
-            df[name] = array[:,nameList.index(name)]
-    saveTo = addSubstringToName(df_csv,"_withClasses")
-    print(df.head)
-    df.to_csv(saveTo,index=None)
-    return saveTo 
