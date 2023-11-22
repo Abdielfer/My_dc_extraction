@@ -1,0 +1,45 @@
+## We can add a dictionary for every function to call from dc_extract module. 
+# IMPORTANT: See dc_extract documentation for detailles. 
+ ## Comment/UnComment to add/supress inputs to the function
+ ## main crs: 'EPSG:4326'
+
+dc_extrac_cog:
+ _target_: dc_extract.extract_cog.extract_cog.extract_cog
+ collections : 'cdsm:dem'
+ bbox_crs: 'EPSG:4326' 
+ bbox: ''
+# dc_extract_cog's list of params:
+#  field_value : 1 # str, int, float
+#  field_id : 'Id' #str
+#  geom_file: 'C:\Users\abfernan\CrossCanFloodMapping\dc_extract_outputLocal\BC_Quesnel\BC_Quesnel_WShed2.gpkg' #str
+#  resolution: 16 # int
+ method: 'bilinear' #str 
+#  out_crs: 'EPSG:4326' #str
+ out_dir: C:\Users\abfernan\CrossCanFloodMapping\GISAutomation\dc_output\
+ suffix: '' # str
+# datetime_filter: None # str
+# resolution_filter: None # str
+# overviews: False 
+# debug: False
+# mosaic: False 
+# orderby: 'date' 
+# desc: True
+
+dc_search:
+ _target_: dc_extract.describe.describe.search
+ name: 'C:\Users\abfernan\CrossCanFloodMapping\GISAutomation\dc_output\search\search.gpkg'
+ bbox: '-71.55,46.74,-71.18,47.1'
+#  urls: ['https://datacube.services.geo.ca/api']         
+#  dt: None
+#  cols: 'hrdem'
+#  geojson: False
+
+dc_describeCollections: 
+ _target_: dc_extract.describe.describe.collections
+ name: 'C:\Users\abfernan\CrossCanFloodMapping\GISAutomation\dc_output\description\description.gpkg'
+#  urls: ['https://datacube.services.geo.ca/api'] 
+#  geojson : False 
+#________________________________________________________________
+# Values that can be shared by all functions:
+date_time : None  # datetime_str_in_ISO_8601_with_Z. (ex. str --> '2011-08-12T20:17:46.384Z') Optional defaults to None. 
+polygonListCSV : 'C:\Users\abfernan\CrossCanFloodMapping\FloodMappingProjData\HRDTMByAOI\ListOfBasinsPolygonsShp.csv'

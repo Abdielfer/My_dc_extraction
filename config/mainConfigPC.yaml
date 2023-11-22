@@ -1,0 +1,11 @@
+config_name: ${hydra:job.config_name}
+config_override_dirname: ${hydra:job.override_dirname}
+config_path: ${hydra:runtime.config_sources}
+defaults:
+- dc_Extract_params: dc_extractParamsCanvas
+- transformation: rasterTools
+- _self_
+normalizers: '[100,22,53]'
+output_dir: C:\Users\abfernan\CrossCanFloodMapping\GISAutomation\dc_output
+saveModelsPath: ${hydra:runtime.cwd}
+work_dir: ${hydra:runtime.cwd}
